@@ -19,14 +19,14 @@ import (
 	"testing"
 	"time"
 
-	_ "trpc.group/trpc-go/trpc-naming-polarismesh/registry"
+	_ "github.com/NHYCRaymond/trpc-naming-polarismesh/registry"
 
-	"trpc.group/trpc-go/trpc-go"
+	"github.com/NHYCRaymond/trpc-go"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/config"
-	plog "github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/plugin/loadbalancer/ringhash"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	plog "github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/plugin/loadbalancer/ringhash"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"

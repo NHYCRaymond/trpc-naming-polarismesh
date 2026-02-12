@@ -8,10 +8,10 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	api "github.com/polarismesh/polaris-go/api"
-	config "github.com/polarismesh/polaris-go/pkg/config"
-	model "github.com/polarismesh/polaris-go/pkg/model"
-	plugin "github.com/polarismesh/polaris-go/pkg/plugin"
+	api "github.com/NHYCRaymond/polaris-go/api"
+	config "github.com/NHYCRaymond/polaris-go/pkg/config"
+	model "github.com/NHYCRaymond/polaris-go/pkg/model"
+	plugin "github.com/NHYCRaymond/polaris-go/pkg/plugin"
 )
 
 // MockSDKContext is a mock of SDKContext interface.

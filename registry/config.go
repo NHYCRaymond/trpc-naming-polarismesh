@@ -13,7 +13,7 @@
 
 package registry
 
-import "github.com/polarismesh/polaris-go/pkg/model"
+import "github.com/NHYCRaymond/polaris-go/pkg/model"
 
 // Config is registry configuration.
 type Config struct {

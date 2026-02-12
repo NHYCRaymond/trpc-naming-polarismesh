@@ -16,7 +16,7 @@ package selector
 import (
 	"time"
 
-	"github.com/polarismesh/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
 )
 
 // Config selector configuration structure

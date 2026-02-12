@@ -17,11 +17,11 @@ package discovery
 import (
 	"fmt"
 
-	"trpc.group/trpc-go/trpc-go/naming/discovery"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/discovery"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // Setup is for setting up.

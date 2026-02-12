@@ -19,12 +19,12 @@ import (
 	"fmt"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/errs"
-	"trpc.group/trpc-go/trpc-go/naming/circuitbreaker"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/errs"
+	"github.com/NHYCRaymond/trpc-go/naming/circuitbreaker"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // Config is circuit breaker configuration.

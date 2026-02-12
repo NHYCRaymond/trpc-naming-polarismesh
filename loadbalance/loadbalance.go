@@ -20,15 +20,15 @@ import (
 	"strconv"
 
 	"gopkg.in/yaml.v3"
-	"trpc.group/trpc-go/trpc-go/naming/loadbalance"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/loadbalance"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
-	"github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
-	"github.com/polarismesh/polaris-go/plugin/loadbalancer/ringhash"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
+	"github.com/NHYCRaymond/polaris-go/plugin/loadbalancer/ringhash"
 )
 
 // Deprecated: you can always use the original string defined in polaris-go.

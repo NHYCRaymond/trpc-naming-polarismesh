@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/codec"
-	"trpc.group/trpc-go/trpc-go/log"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-go/naming/selector"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/circuitbreaker"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/servicerouter"
+	"github.com/NHYCRaymond/trpc-go/codec"
+	"github.com/NHYCRaymond/trpc-go/log"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/selector"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/circuitbreaker"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/servicerouter"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

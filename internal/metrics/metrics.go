@@ -19,8 +19,8 @@ import (
 
 	"trpc.group/trpc-go/trpc-go/metrics"
 
-	"github.com/polarismesh/polaris-go/api"
-	plog "github.com/polarismesh/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/api"
+	plog "github.com/NHYCRaymond/polaris-go/pkg/log"
 )
 
 const (

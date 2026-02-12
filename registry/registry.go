@@ -21,13 +21,13 @@ import (
 	"strconv"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/healthcheck"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/internal/metrics"
+	"github.com/NHYCRaymond/trpc-go/healthcheck"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/internal/metrics"
 
-	"github.com/polarismesh/polaris-go/api"
-	plog "github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/api"
+	plog "github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 const (

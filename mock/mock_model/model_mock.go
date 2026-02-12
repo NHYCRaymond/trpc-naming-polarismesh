@@ -10,7 +10,7 @@ import (
 	time "time"
 
 	gomock "github.com/golang/mock/gomock"
-	model "github.com/polarismesh/polaris-go/pkg/model"
+	model "github.com/NHYCRaymond/polaris-go/pkg/model"
 )
 
 // MockInstance is a mock of Instance interface.

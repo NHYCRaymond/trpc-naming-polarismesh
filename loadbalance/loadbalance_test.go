@@ -16,7 +16,7 @@ package loadbalance
 import (
 	"testing"
 
-	"trpc.group/trpc-go/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
 
 	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_api"
 	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_loadbalancer"
@@ -24,9 +24,9 @@ import (
 	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_plugin"
 
 	"github.com/golang/mock/gomock"
-	"github.com/polarismesh/polaris-go/pkg/config"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/pkg/plugin/common"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"

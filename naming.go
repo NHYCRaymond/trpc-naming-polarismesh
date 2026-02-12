@@ -21,19 +21,19 @@ import (
 	"strings"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go/plugin"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/circuitbreaker"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/discovery"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/loadbalance"
-	_ "trpc.group/trpc-go/trpc-naming-polarismesh/registry" // 初始化注册模块
-	"trpc.group/trpc-go/trpc-naming-polarismesh/selector"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/servicerouter"
+	"github.com/NHYCRaymond/trpc-go/plugin"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/circuitbreaker"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/discovery"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/loadbalance"
+	_ "github.com/NHYCRaymond/trpc-naming-polarismesh/registry" // 初始化注册模块
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/selector"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/servicerouter"
 
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/config"
-	plog "github.com/polarismesh/polaris-go/pkg/log"
-	"github.com/polarismesh/polaris-go/pkg/model"
-	"github.com/polarismesh/polaris-go/plugin/location"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/config"
+	plog "github.com/NHYCRaymond/polaris-go/pkg/log"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/plugin/location"
 	"gopkg.in/yaml.v3"
 )
 

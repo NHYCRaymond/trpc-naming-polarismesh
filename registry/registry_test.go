@@ -18,16 +18,16 @@ import (
 	"testing"
 	"time"
 
-	"trpc.group/trpc-go/trpc-go"
-	"trpc.group/trpc-go/trpc-go/healthcheck"
-	"trpc.group/trpc-go/trpc-go/naming/registry"
-	"trpc.group/trpc-go/trpc-go/plugin"
+	"github.com/NHYCRaymond/trpc-go"
+	"github.com/NHYCRaymond/trpc-go/healthcheck"
+	"github.com/NHYCRaymond/trpc-go/naming/registry"
+	"github.com/NHYCRaymond/trpc-go/plugin"
 
 	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_api"
 
 	"github.com/golang/mock/gomock"
-	"github.com/polarismesh/polaris-go/api"
-	"github.com/polarismesh/polaris-go/pkg/model"
+	"github.com/NHYCRaymond/polaris-go/api"
+	"github.com/NHYCRaymond/polaris-go/pkg/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"

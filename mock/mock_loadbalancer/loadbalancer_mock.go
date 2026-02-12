@@ -8,11 +8,11 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	config "github.com/polarismesh/polaris-go/pkg/config"
-	model "github.com/polarismesh/polaris-go/pkg/model"
-	plugin "github.com/polarismesh/polaris-go/pkg/plugin"
-	common "github.com/polarismesh/polaris-go/pkg/plugin/common"
-	loadbalancer "github.com/polarismesh/polaris-go/pkg/plugin/loadbalancer"
+	config "github.com/NHYCRaymond/polaris-go/pkg/config"
+	model "github.com/NHYCRaymond/polaris-go/pkg/model"
+	plugin "github.com/NHYCRaymond/polaris-go/pkg/plugin"
+	common "github.com/NHYCRaymond/polaris-go/pkg/plugin/common"
+	loadbalancer "github.com/NHYCRaymond/polaris-go/pkg/plugin/loadbalancer"
 )
 
 // MockLoadBalancer is a mock of LoadBalancer interface.
