@@ -1,15 +1,15 @@
-module trpc.group/trpc-go/trpc-naming-polarismesh
+module github.com/NHYCRaymond/trpc-naming-polarismesh
 
 go 1.18
 
 require (
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
-	github.com/polarismesh/polaris-go v1.5.5
-	github.com/polarismesh/specification v1.4.1
+	github.com/NHYCRaymond/polaris-go v1.5.5
+	github.com/NHYCRaymond/polaris-specification v1.7.0
 	github.com/stretchr/testify v1.8.4
 	gopkg.in/yaml.v3 v3.0.1
-	trpc.group/trpc-go/trpc-go v1.0.0
+	github.com/NHYCRaymond/trpc-go v1.0.3
 )
 
 require (
@@ -56,6 +56,6 @@ require (
 	google.golang.org/grpc v1.51.0 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	trpc.group/trpc-go/tnet v0.0.0-20230810071536-9d05338021cf // indirect
-	trpc.group/trpc/trpc-protocol/pb/go/trpc v0.0.0-20230803031059-de4168eb5952 // indirect
+	github.com/NHYCRaymond/tnet v0.0.1 // indirect
+	github.com/NHYCRaymond/trpc-protocol v1.0.0 // indirect
 )
