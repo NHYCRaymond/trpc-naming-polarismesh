@@ -392,9 +392,16 @@ func setSdkProperty(c config.Configuration, cfg *Config) {
 	if cfg.PersistDir != nil {
 		c.GetConsumer().GetLocalCache().SetPersistDir(*cfg.PersistDir)
 	}
-	// Set the sdk cache retention time.
+	// Cache hardening: extend file cache validity to 72h for disaster recovery
+	// These settings should apply even if user provides a custom ServiceExpireTime
+	cache := c.GetConsumer().GetLocalCache()
+	cache.SetPersistAvailableInterval(72 * time.Hour)
+	cache.SetPushEmptyProtection(true)
 	if cfg.ServiceExpireTime != nil {
-		c.GetConsumer().GetLocalCache().SetServiceExpireTime(*cfg.ServiceExpireTime)
+		cache.SetServiceExpireTime(*cfg.ServiceExpireTime)
+	} else {
+		// Default to 72h for disaster recovery resilience
+		cache.SetServiceExpireTime(72 * time.Hour)
 	}
 	if cfg.ClusterService.Discover != "" {
 		c.GetGlobal().GetSystem().GetDiscoverCluster().SetService(cfg.ClusterService.Discover)
