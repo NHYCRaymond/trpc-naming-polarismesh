@@ -28,10 +28,10 @@ import (
 	"github.com/NHYCRaymond/polaris-specification/source/go/api/v1/traffic_manage"
 	"github.com/stretchr/testify/assert"
 
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_api"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_model"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_plugin"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_servicerouter"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_api"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_model"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_plugin"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_servicerouter"
 )
 
 func TestSetup(t *testing.T) {

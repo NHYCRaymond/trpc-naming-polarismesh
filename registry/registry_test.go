@@ -23,7 +23,7 @@ import (
 	"github.com/NHYCRaymond/trpc-go/naming/registry"
 	"github.com/NHYCRaymond/trpc-go/plugin"
 
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_api"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_api"
 
 	"github.com/golang/mock/gomock"
 	"github.com/NHYCRaymond/polaris-go/api"

@@ -17,8 +17,8 @@ import (
 	"testing"
 
 	"github.com/NHYCRaymond/trpc-go/naming/discovery"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_api"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_model"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_api"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_model"
 
 	"github.com/golang/mock/gomock"
 	"github.com/NHYCRaymond/polaris-go/pkg/model"

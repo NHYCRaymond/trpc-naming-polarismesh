@@ -17,7 +17,7 @@ package metrics
 import (
 	"strconv"
 
-	"trpc.group/trpc-go/trpc-go/metrics"
+	"github.com/NHYCRaymond/trpc-go/metrics"
 
 	"github.com/NHYCRaymond/polaris-go/api"
 	plog "github.com/NHYCRaymond/polaris-go/pkg/log"

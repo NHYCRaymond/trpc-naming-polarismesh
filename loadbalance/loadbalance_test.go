@@ -18,10 +18,10 @@ import (
 
 	"github.com/NHYCRaymond/trpc-go/naming/registry"
 
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_api"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_loadbalancer"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_model"
-	"trpc.group/trpc-go/trpc-naming-polarismesh/mock/mock_plugin"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_api"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_loadbalancer"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_model"
+	"github.com/NHYCRaymond/trpc-naming-polarismesh/mock/mock_plugin"
 
 	"github.com/golang/mock/gomock"
 	"github.com/NHYCRaymond/polaris-go/pkg/config"
