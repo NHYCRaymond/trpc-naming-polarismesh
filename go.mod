@@ -3,9 +3,9 @@ module github.com/NHYCRaymond/trpc-naming-polarismesh
 go 1.22
 
 require (
-	github.com/NHYCRaymond/polaris-go v1.0.0-new
-	github.com/NHYCRaymond/polaris-specification v1.0.0-new
-	github.com/NHYCRaymond/trpc-go v1.0.0-new
+	github.com/NHYCRaymond/polaris-go v1.0.1
+	github.com/NHYCRaymond/polaris-specification v1.0.1
+	github.com/NHYCRaymond/trpc-go v1.0.5
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
 	github.com/stretchr/testify v1.8.4
@@ -14,8 +14,8 @@ require (
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
-	github.com/NHYCRaymond/tnet v1.0.0-new // indirect
-	github.com/NHYCRaymond/trpc-protocol v1.0.0-new // indirect
+	github.com/NHYCRaymond/tnet v1.0.2 // indirect
+	github.com/NHYCRaymond/trpc-protocol v1.0.1 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
